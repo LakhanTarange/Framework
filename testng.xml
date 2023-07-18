@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="R15Suite">
+	<listeners>
+		<listener class-name="com.cs.listeners.TestListener" />
+	</listeners>
+	<test thread-count="2" parallel="methods" name="R15Test">
+		<classes>
+			<class name="Tasts.LoginTest" />
+			<class name="Tasts.LoginTest2" />
+		</classes>
+	</test> <!-- R15Test -->
+</suite> <!-- R15Suite -->
